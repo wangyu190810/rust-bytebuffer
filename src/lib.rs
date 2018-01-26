@@ -29,7 +29,7 @@ impl ByteBuffer {
             rpos: 0,
             rbit: 0,
             wbit: 0,
-            endian: Endian::BigEndian,       
+            endian: Endian::LittleEndian,       
         }
     }
 
